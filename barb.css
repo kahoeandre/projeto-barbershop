@@ -1,0 +1,233 @@
+         * {
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+             text-decoration: none;
+         }
+         /*                                     Menu de navegação                */
+         
+         a.one:link {
+             text-decoration: none;
+         }
+         
+         a.one:visited {
+             text-decoration: none;
+         }
+         
+         a.one:hover {
+             background-color: #D3D3D3;
+         }
+         
+         a.one:active {
+             text-decoration: none;
+         }
+         
+         .cabecalho {
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+             background-color: #DCDCDC;
+             font-family: "Poppins", sans-serif;
+             font-style: italic;
+             font-weight: bold;
+             font-size: 16px;
+             align-items: center;
+             position: fixed;
+             left: 0;
+             top: 0;
+             width: 100%;
+         }
+         
+         .menu {
+             color: black;
+             text-align: center;
+             display: inline-block;
+             overflow: hidden;
+             display: block;
+             flex-basis: 24%;
+             padding: 12px;
+         }
+         /*                                         seção 1                                         */
+         
+         .titulo {
+             background-image: url(fundo1.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position-x: center;
+             background-position-y: center;
+             height: 550px;
+             background-color: rgba(0, 0, 0, 0.85);
+             background-blend-mode: saturation;
+             background-attachment: fixed;
+         }
+         
+         h1 {
+             color: rgb(255, 255, 255);
+             position: absolute;
+             top: 30%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             font-size: 60px;
+             font-family: 'Titan One', cursive;
+         }
+         
+         h5 {
+             font-family: 'Titan One', cursive;
+             font-size: 22px;
+             color: white;
+             text-align: center;
+             padding-bottom: 60px;
+             padding-top: 60px;
+         }
+         
+         span {
+             background-color: black;
+             padding: 5px 30px;
+         }
+         
+         .conter {
+             display: flex;
+             padding-left: 3%;
+             padding-right: 3%;
+             justify-content: space-around;
+         }
+         
+         .conter1 {
+             background-color: black;
+             text-align: center;
+             font-family: 'Titan One', cursive;
+             font-size: 20px;
+             color: white;
+             width: 30%;
+             padding: 3% 0% 3% 0%;
+         }
+         
+         .barbeiros-img {
+             border-radius: 50%;
+             width: 180px;
+             height: 180px;
+         }
+         
+         img:hover {
+             opacity: 0.2;
+         }
+         /*                                            seção 2                                       */
+         
+         .seção-2 {
+             background-color: #C2C2B0;
+             text-align: center;
+         }
+         
+         .info {
+             background-image: url(fundo2.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position-x: center;
+             background-position-y: center;
+             height: 600px;
+             background-attachment: fixed;
+         }
+         
+         .itens {
+             background-color: black;
+             text-align: center;
+             font-family: 'Titan One', cursive;
+             font-size: 20px;
+             color: white;
+             width: 30%;
+             height: 40%;
+             margin-top: 8%;
+         }
+         /*                                           seção 3                                     */
+         
+         .valores {
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             width: 40%;
+             margin-left: 30%;
+         }
+         
+         .serviços {
+             background-color: rgb(27, 26, 26);
+             color: white;
+             text-align: center;
+             margin: 15px;
+             padding: 16px;
+         }
+         
+         h4 {
+             font-family: 'Titan One', cursive;
+             font-size: 18px;
+             font-style: italic;
+         }
+         /*                                           seção 4                             */
+         
+         .bot {
+             background-color: #C2C2B0;
+         }
+         
+         .butt {
+             padding: 15px 25px;
+             font-size: 24px;
+             cursor: pointer;
+             text-align: center;
+             text-decoration: none;
+             outline: none;
+             color: #fff;
+             background-color: #4b2b2b;
+             border: none;
+             border-radius: 15px;
+             box-shadow: 0 9px rgb(3, 3, 3);
+             margin: 4% 45%;
+         }
+         
+         button:active {
+             background-color: #3e8e41;
+             box-shadow: 0 5px #666;
+             transform: translateY(4px);
+         }
+         
+         button:hover {
+             background-color: #774444;
+         }
+         
+         a.two:link,
+         a.two:visited,
+         a.two:hover,
+         a.two:active {
+             color: white;
+             text-decoration: none;
+         }
+         /*                                           @midia                             */
+         
+         @media (max-width: 700px) {
+             h1 {
+                 left: 55%;
+             }
+             .conter {
+                 flex-direction: column;
+                 align-items: center;
+                 padding-bottom: 30px;
+             }
+             .conter1 {
+                 width: 60%;
+                 margin: 5%;
+             }
+             .itens {
+                 width: 60%;
+                 font-size: 15px;
+                 ;
+             }
+             .valores {
+                 width: 50%;
+                 margin-left: 25%;
+             }
+             .butt {
+                 width: 50%;
+                 margin: 5% 30%;
+             }
+             .esconder {
+                 display: none;
+             }
+         }
