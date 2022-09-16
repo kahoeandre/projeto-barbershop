@@ -165,6 +165,7 @@
          
          .bot {
              background-color: #C2C2B0;
+             display:flex;
          }
          
          .butt {
